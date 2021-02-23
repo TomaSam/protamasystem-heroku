@@ -29,7 +29,7 @@ import lt.vtmc.ProTaMa.service.ProjectService;
 import lt.vtmc.ProTaMa.service.TaskService;
 
 @Api(value="project")
-@CrossOrigin(origins = "https://project-task-system.herokuapp.com/")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/projects")
 public class ProjectController {
